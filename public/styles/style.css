@@ -83,6 +83,17 @@ body {
       height: 100% !important;
   }
 
+  .my-work {
+      color: #FF7C7C;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+  }
+
+  .work-divider {
+      color: #FF7C7C;
+      width: 200px;
+  }
+
   /* .display-1 {
     z-index: 1;
     color: #FF7C7C;
@@ -337,6 +348,23 @@ body {
     margin-bottom: 70px;
     display: block;
     /* line-height: 0px; */
+}
+
+.project-buttons, .project-buttons:hover, .project-buttons:active, .project-buttons:visited {
+    color: #FF7C7C !important;
+    border-color: #FF7C7C !important;
+    
+}
+
+.project-buttons:hover {
+    background-color: #FF7C7C !important;
+    color: #FFFFFF !important;
+}
+
+.card-footer {
+    background: transparent !important;
+    border: none !important;
+    
 }
 
 
