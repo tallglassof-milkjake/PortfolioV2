@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    
+    <!-- <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script> -->
+
 </head>
 <body>
     <nav class="position-absolute navigation-bar navbar navbar-expand-lg sticky-top navbar-dark">
@@ -67,20 +68,23 @@
                         </ul>
                     </div>
                 </h4>
+
+                
             </div>
+            
         </div>
 
         <hr class="line-divider">
 
-        <div class="container">
+        <div class="container" id="project-container">
 
             <h1 class="display-1 pt-5 pb-3 mx-auto text-center my-work">My Work</h1>
             <hr class="work-divider mb-3 mx-auto">
 
                 <div class="card-columns pt-5">
 
-                    <div class="flip-card mx-auto mb-4">
-                        <div class="flip-card-inner">
+                    <div class="flip-card mx-auto mb-4 h-100">
+                        <div class="flip-card-inner h-100">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/wireframes@2x.png" alt="Avatar" >
                             </div>
@@ -89,7 +93,7 @@
                                     <img class="img-mirrored h-100" src="../assets/img/wireframes@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs mx-auto h-100 p-3">
+                                        <div class="card-uvs mx-auto h-100 py-3">
                                             <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Wireframing</h5>
                                                 <p class="card-text text-dark">Check out this snapshot into the wireframing process.</p>
@@ -105,7 +109,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/yellow@2x.png" alt="Avatar">
@@ -115,7 +119,7 @@
                                     <img class="img-mirrored h-100" src="../assets/img/yellow@2x.png" alt="Avatar">
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs mx-auto h-100 p-3">
+                                        <div class="card-uvs mx-auto h-100 py-3">
                                             <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Design</h5>
                                                 <p class="card-text text-dark">Sometimes design means functionality. Sometimes it means more.</p>
@@ -131,18 +135,18 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/ai@2x.png" alt="Avatar" >
                             </div>
-                            <div class="flip-card-back position-relative">
+                            <div class="flip-card-back position-relative h-100">
                                 <div class="uvs mx-auto">
                                     <img class="img-mirrored h-100" src="../assets/img/ai@2x.png" alt="Avatar" >
-                                    <div class="card-img-overlay">
+                                    <div class="card-img-overlay h-100">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto py-3 h-100">
+                                            <div class="card-body pt-0 h-75">
                                                 <h5 class="card-title text-dark">Intelligent</h5>
                                                 <p class="card-text text-dark">Algorythms don't need to be complicated. Not always</p>
                                             </div>
@@ -157,7 +161,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/laptop@2x.png" alt="Avatar" >
@@ -167,10 +171,10 @@
                                     <img class="img-mirrored h-100" src="../assets/img/laptop@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-dark">Client Management</h5>
-                                                <p class="card-text text-dark">Not all clients need a fulltime developer to upkeep their site!</p>
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
+                                                <h5 class="card-title text-light">Client Management</h5>
+                                                <p class="card-text text-light">Not all clients need a fulltime developer to upkeep their site!</p>
                                             </div>
                                             <div class="card-footer">
                                                 <button class="btn btn-outline-secondary project-buttons">See More</button>
@@ -183,7 +187,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/circuit@2x.png" alt="Avatar" >
@@ -193,8 +197,8 @@
                                     <img class="img-mirrored h-100" src="../assets/img/circuit@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Software</h5>
                                                 <p class="card-text text-dark">These are some of our favourite projects. Working directly with our clients to obtain the best outcomes.</p>
                                             </div>
@@ -209,7 +213,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/dev-center@2x.png" alt="Avatar" >
@@ -219,10 +223,10 @@
                                     <img class="img-mirrored h-100" src="../assets/img/dev-center@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-dark">Collaboration</h5>
-                                                <p class="card-text text-dark">I've collaborated on projects with other developers and designers. Sometimes, more heads are better than one.</p>
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
+                                                <h5 class="card-title text-light">Collaboration</h5>
+                                                <p class="card-text text-light">I've collaborated on projects with other developers and designers. Sometimes, more heads are better than one.</p>
                                             </div>
                                             <div class="card-footer">
                                                 <button class="btn btn-outline-secondary project-buttons">See More</button>
@@ -235,7 +239,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/fist@2x.png" alt="Avatar" >
@@ -245,8 +249,8 @@
                                     <img class="img-mirrored h-100" src="../assets/img/fist@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Entrepreneur</h5>
                                                 <p class="card-text text-dark">Bringing new ideas to life and powering ahead with like-minded start-ups.</p>
                                             </div>
@@ -261,7 +265,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/connected@2x.png" alt="Avatar" >
@@ -271,10 +275,10 @@
                                     <img class="img-mirrored h-100" src="../assets/img/connected@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
-                                                <h5 class="card-title text-dark">Connection</h5>
-                                                <p class="card-text text-dark">Whether it's connecting you to your clients or your clients to your database and everything in between. I've got you.</p>
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
+                                                <h5 class="card-title text-light">Connection</h5>
+                                                <p class="card-text text-light">Whether it's connecting you to your clients or your clients to your database and everything in between. I've got you.</p>
                                             </div>
                                             <div class="card-footer">
                                                 <button class="btn btn-outline-secondary project-buttons">See More</button>
@@ -287,7 +291,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/coffee@2x.png" alt="Avatar" >
@@ -297,8 +301,8 @@
                                     <img class="img-mirrored h-100" src="../assets/img/coffee@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Open Source</h5>
                                                 <p class="card-text text-dark">Here's a few open source projects I've worked on. Team work makes the dream work!</p>
                                             </div>
@@ -313,7 +317,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/colab@2x.png" alt="Avatar" >
@@ -323,8 +327,8 @@
                                     <img class="img-mirrored h-100" src="../assets/img/colab@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">Meetings</h5>
                                                 <p class="card-text text-dark">Getting rid of the boring corporate meetings doesn't have to mean getting rid of quality work.</p>
                                             </div>
@@ -339,7 +343,7 @@
                         </div>
                     </div>
 
-                    <div class="flip-card mx-auto my-4">
+                    <div class="flip-card mx-auto my-4 h-100">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img class="h-100" src="../assets/img/pencils@2x.png" alt="Avatar" >
@@ -349,8 +353,8 @@
                                     <img class="img-mirrored h-100" src="../assets/img/pencils@2x.png" alt="Avatar" >
                                     <div class="card-img-overlay">
                                         
-                                        <div class="card-uvs p-3">
-                                            <div class="card-body">
+                                        <div class="card-uvs mx-auto h-100 py-3">
+                                            <div class="card-body pt-0">
                                                 <h5 class="card-title text-dark">UI/UX</h5>
                                                 <p class="card-text text-dark">Striving to help clients reap the benefits of thoughtful UI/UX design to better reach their target demographic.</p>
                                             </div>
@@ -487,6 +491,13 @@
         </div>
     </div>
 
+
+    <!-- <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Place sticky footer content here.</span>
+        </div>
+    </footer> -->
+
     <canvas></canvas>
 
 
@@ -496,6 +507,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
     <!-- <script src="/node_modules/universal-parallax/dist/universal-parallax.min.js"></script> -->
     <!-- <script>
         new universalParallax().init();
