@@ -699,3 +699,10 @@ body {
     color: white;
     transform: rotateY(180deg);
   }
+
+
+  /* ABOUT PAGE */
+
+  .about-heading {
+      color: #FF7C7C;
+  }
