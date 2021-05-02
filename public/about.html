@@ -6,9 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jake | About</title>
 
-    <link rel="icon" type="image/png" href="../assets/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="icon" type="image/png" href="/assets/img/logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b86300fd7f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/jquery.listtopie.css"/>
 </head>
 <body>
+    <nav class="position-absolute navigation-bar navbar navbar-expand-lg sticky-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand jake" href="/public/index.html"><img class="logo img-fluid" src="../assets/img/logo.png" alt="J Logo"> Jake</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav navigations">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     
+    <section class="move-area">
+        <div class='box text-center'>
+            <div class='eye'></div>
+            <div class='eye'></div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span><a href="#aboutJake"><i class="fas fa-chevron-down fa-lg"></i></a></span>
+            </div>
+        </div>
+
+        <div class="row w-75 mx-auto" id="aboutJake">
+            <div class="col-12">
+                <h1 class="display-1 about-jake">About Jake</h1>
+                <hr class="project-separator">
+            </div>
+            <div class="col-12">
+                <p class="lead text-light">
+                    Selvage tbh pour-over, voluptate food truck direct trade photo booth quis you 
+                    probably haven't heard of them sriracha crucifix green juice. Incididunt master 
+                    cleanse next level, normcore dreamcatcher blog laboris semiotics. Tousled pitchfork 
+                    voluptate, nulla cliche messenger bag enim 8-bit VHS consequat asymmetrical. 
+                    DIY paleo et, consectetur schlitz master cleanse retro irure subway tile trust 
+                    fund swag live-edge tempor prism. Vexillologist gochujang schlitz kogi franzen. 
+                    Readymade try-hard taiyaki swag ullamco laboris, shoreditch knausgaard jianbing.
+                </p>
+            </div>
+
+            <div class="col-12">
+                <!-- <div class="pie-box">
+                    <h2>Chart.js — Pie Chart Demo (apples)</h2>
+                    <div>
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div> -->
+
+                <div class='row'>
+                    <div data-lcolor="#313c42">38.4<span>Coal</span></div>
+                    <div data-lcolor="#ef8e39">23.2<span>Natural Gas</span></div>
+                    <div data-lcolor="#005ce6">16.3<span>Hydro</span></div>
+                    <div data-lcolor="#de2821">10.4<span>Nuclear fission</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
+    
+    
+
+
+
+
+    <!-- <script src="/js/script.js" type="text/javascript"></script> -->
+
+    
+
+    <script src="/js/parallax.js"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="/js/eyes.js" type="text/javascript"></script>
+    <script src="/js/pie.js" type="text/javascript"></script>
+
+    <!-- <script type="text/javascript" src="/public/assets/svg-pie-donut-chart/js/jquery.listtopie.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js" integrity="sha512-Gk+uNk8NWN235mIkS6B7/424TsDuPDaoAsUekJCKTWLKP6wlaPv+PBGfO7dbvZeibVPGW+mYidz0vL0XaWwz4w==" crossorigin="anonymous"></script>
+    
+    <!-- <script type="text/javascript" src="./svg-pie-donut-chart/js/snap.svg-min.js"></script> -->
+    <!-- <script type="text/javascript" src="/svg-pie-donut-chart/js/jquery.listtopie.min.js"></script> -->
+
+    <script type="text/javascript" src="/assets/svg-pie-donut-chart/js/jquery.listtopie.min.js"></script>
 </body>
 </html>
