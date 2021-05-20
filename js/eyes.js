@@ -4,6 +4,7 @@
 
 
 $(function() {
+
     console.log( "ready!" );
 
     eyes();
